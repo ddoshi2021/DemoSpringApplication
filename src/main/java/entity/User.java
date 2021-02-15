@@ -13,14 +13,23 @@ public class User {
     private String userName;
     private String role;
 
+    /**
+     * User constructor
+     */
     protected  User() {
 
     }
 
+    /**
+     * constructor with usr name and role
+     * @param userName
+     * @param role
+     */
     public User(String userName, String role) {
         this.userName = userName;
         this.role = role;
     }
+
 
     public long getUserId() {
         return userId;
