@@ -1,8 +1,8 @@
-Demo Spring App
+Demo Spring Boot Application
 
 ---
 Dependency
+
 - Web
 - thymeleaf
 - JPA/H2
-
